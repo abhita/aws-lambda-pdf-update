@@ -1,0 +1,33 @@
+{
+    "awsBucket":"",
+    "awsRegion":"",
+    "airbrake":{
+        "projectId":"",
+        "projectKey":""
+    },
+    "localLambda":{
+        "logGroupName":"",
+        "logStreamName":""
+    },
+    "lambdaResponse":
+    {
+        "request_id":"",
+        "file":{},
+        "webhook_response":{},
+        "processing_time":"",
+        "log_stream_name": "",
+        "errors":[]
+    },
+    "errors": [
+        {
+            "error_type":"InternalServerError",
+            "error_code": 4000,
+            "error_message":"Unknown error",
+            "more_info":"",
+            "request_id":"",
+            "http_status_code":500
+        }
+
+        // More errors could be defined here
+    ]
+}
