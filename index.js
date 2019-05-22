@@ -11,9 +11,8 @@ var mktemp = require("mktemp");
 var pdfFiller = require('pdffiller');
 var s3 = new AWS.S3();
 var ts=(new Date().getTime());
-//var retrotaxPdf = require('pdf.js');
 
-//https://github.com/lob/lambda-pdftk-example
+
 // Set the PATH and LD_LIBRARY_PATH environment variables.
 exports.handler = function(event, context,callback) {
     // You can set this property to false to request AWS Lambda to freeze the process soon after the callback is called, 
